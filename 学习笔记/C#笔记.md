@@ -714,6 +714,7 @@ string strNeed = string.Format("{0:D2}",5);  // 可以使字作串为两位整�
 
 
 
+
 ## do whlie循环
 
 ​	do{}while(条件)
@@ -930,6 +931,10 @@ Length是表示a中元素个数；
 
 	属性
 	.Length：代表你数组的长度
+	
+	清空数组
+	textArray[]
+	 Array.Clear(textArray, 0, textArray.Length);
 
 **二维数组**
 
